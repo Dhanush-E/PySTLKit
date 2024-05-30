@@ -1,9 +1,8 @@
-import numpy as np 
-
-
 class Stack:
 
-    def __init__(self):pass #give diffrent name for the list dont give stack
+    def __init__(self,maxsize=None):
+        self.stack_list = []
+        self.maxsize = maxsize
 
     def push(self):pass
 
