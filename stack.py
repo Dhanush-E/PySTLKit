@@ -20,3 +20,7 @@ class Stack:
     def clear(self):pass
 
     def tolist(self):pass
+
+    def getmax(self):pass
+
+    def getmin(self):pass
